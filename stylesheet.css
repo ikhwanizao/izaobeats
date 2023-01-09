@@ -1,6 +1,7 @@
 /** global element styling **/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 * {
   margin: 0;
@@ -8,10 +9,16 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  font-stretch: normal;
+}
+
 body {
   background-color: #eee;
   font-family: "Poppins", sans-serif;
-  
 }
 
 #page-wrapper {
@@ -37,8 +44,8 @@ a {
 }
 
 .btn {
-  font-family: 'Poppins', sans-serif;
-  color:#ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
   padding: auto;
   height: 40px;
   font-size: 1em;
@@ -92,7 +99,7 @@ header {
   }
 }
 
-.logotop{
+.logotop {
   display: inline-block;
   width: 150px;
   margin-left: 20px;
@@ -153,7 +160,6 @@ nav > ul {
   justify-content: center;
   text-align: center;
   height: 200px;
-  
 }
 
 input[type="email"] {
@@ -161,7 +167,7 @@ input[type="email"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #2D033B;
+  border: 2px solid #2d033b;
   border-radius: 4px;
 }
 
@@ -177,7 +183,6 @@ input[type="email"] {
 }
 
 #hero input[type="submit"] {
-
   max-width: 150px;
   width: 100%;
   height: 45px;
@@ -292,7 +297,6 @@ input[type="email"] {
 }
 
 .product > button {
-  
   border: 0;
   color: white;
   margin: 15px 0;
@@ -300,7 +304,6 @@ input[type="email"] {
   font-weight: 400;
   width: 90px;
   border-radius: 5px;
-  
 }
 
 .product > button:hover {
